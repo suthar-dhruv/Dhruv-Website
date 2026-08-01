@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume — Dhruv</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/animation.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="loader"><div class="loader-content"><div class="loader-ring"></div><div class="loader-text">Loading</div><div class="loader-bar"><span></span></div></div></div>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+<canvas id="three-bg"></canvas>
+
+<nav class="navbar">
+  <a href="index.html" class="logo"><div class="logo-mark">D</div><span>Dhruv</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="skills.html">Skills</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="experience.html">Experience</a></li><li><a href="training.html">Training</a></li><li><a href="resume.html" class="active">Resume</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="resume/resume.pdf" download class="btn btn-primary">
+    Download PDF
+</a>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<main>
+<section class="section" style="padding-top:180px">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-tag">Resume</div>
+      <h1 class="section-title">My professional <span class="grad">resume.</span></h1>
+      <p class="section-sub">A complete overview of my career, skills, and accomplishments.</p>
+      <div style="margin-top:30px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+        <a href="assets/resume/Swapnil_Resume.pdf" download class="btn btn-primary magnetic"><i class="fa-solid fa-download"></i> Download PDF</a>
+        <a href="contact.html" class="btn btn-ghost magnetic"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+      </div>
+    </div>
+
+    <div class="resume-wrap reveal">
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-user"></i> Professional Summary</h3>
+        <p style="color:var(--text-dim)">Full Stack Freelancer and Web Development Specialist with 2+ years of experience building premium web platforms and digital solutions. Specialized in modern web technologies, graphic design, and Python programming. Proven track record delivering projects that drive real business outcomes for diverse clients.</p>
+      </div>
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+        <div class="resume-item">
+          <h4>Web Development Specialist</h4>
+          <div class="meta">Freelancer · January 2026 — Present</div>
+          <p>Specializing in modern web development with cutting-edge technologies. Building responsive, performant websites and web applications for diverse clients.</p>
+          <div class="resume-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div>
+        </div>
+        <div class="resume-item">
+          <h4>Freelance Graphic Designer</h4>
+          <div class="meta">Freelancer · January 2025 — Present</div>
+          <p>Creating visual identities, marketing materials, and brand assets. Combining design principles with technical understanding for cohesive digital experiences.</p>
+          <div class="resume-tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Brand Identity</span></div>
+        </div>
+        <div class="resume-item">
+          <h4>Full Stack Freelancer</h4>
+          <div class="meta">Freelancer · January 2024 — Present</div>
+          <p>End-to-end web development — from frontend interfaces to backend systems. Delivering complete digital solutions for startups and businesses.</p>
+          <div class="resume-tags"><span>Full Stack</span><span>Python</span><span>REST API</span><span>Database</span></div>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-graduation-cap"></i> Training & Internship</h3>
+        <div class="resume-item">
+          <h4>Web Development Training</h4>
+          <div class="meta">NSIC Rajkot</div>
+          <p>Comprehensive web development training covering HTML, CSS, JavaScript, and modern web technologies.</p>
+        </div>
+        <div class="resume-item">
+          <h4>Python Programming Intern</h4>
+          <div class="meta">Elsner Technologies Pvt. Ltd.</div>
+          <p>Professional internship focused on Python programming and software development.</p>
+        </div>
+        <div class="resume-item">
+          <h4>Website Development & Web Scraping</h4>
+          <div class="meta">UMA Dye Chem</div>
+          <p>Real-world project involving website development and web scraping for a chemical industry client.</p>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-code"></i> Technical Skills</h3>
+        <div class="resume-item"><h4>Languages & Frameworks</h4><div class="resume-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Python</span></div></div>
+        <div class="resume-item"><h4>Design Tools</h4><div class="resume-tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span></div></div>
+        <div class="resume-item"><h4>Other Skills</h4><div class="resume-tags"><span>UI/UX Design</span><span>Responsive Design</span><span>Git</span><span>WordPress</span><span>REST API</span><span>Web Scraping</span><span>SEO</span></div></div>
+      </div>
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-rocket"></i> Featured Projects</h3>
+        <div class="resume-item"><h4>Enterprise Business Platform</h4><p>Full-stack web application with modern UI and robust backend architecture.</p><div class="resume-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div></div>
+        <div class="resume-item"><h4>Multi-Vendor E-Commerce</h4><p>Scalable marketplace with real-time inventory and payment integration.</p><div class="resume-tags"><span>Web Dev</span><span>Python</span><span>REST API</span></div></div>
+        <div class="resume-item"><h4>Data Extraction Platform</h4><p>Automated web scraping solution for business intelligence and analytics.</p><div class="resume-tags"><span>Python</span><span>BeautifulSoup</span><span>Selenium</span></div></div>
+      </div>
+
+      <div class="resume-section">
+        <h3><i class="fa-solid fa-address-card"></i> Contact</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+          <div><div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">Email</div><div style="font-weight:600;margin-top:4px">suthardhruv11990@gmail.com</div></div>
+          <div><div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">Phone</div><div style="font-weight:600;margin-top:4px">+91 (931)658-8687</div></div>
+          <div><div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px">Location</div><div style="font-weight:600;margin-top:4px">India</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container"><div class="footer-bottom"><div>© 2026 Dhruv</div><div>Crafted with precision</div></div></div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+<script src="js/three-background.js"></script><script src="js/cursor.js"></script><script src="js/animation.js"></script><script src="js/main.js"></script>
+</body>
+</html>
